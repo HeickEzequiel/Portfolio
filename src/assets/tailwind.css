@@ -11,3 +11,6 @@
 .icono{
     @apply border-4 p-2 rounded-2xl bg-black
 }
+.diploma{
+    @apply size-20 border-4 border-black rounded-xl hover:size-max hover:-translate-x-10 hover:scale-110 duration-300 
+}

@@ -6,7 +6,7 @@ import {js,html,css,react,redux,express,node,postgre,sequelize,zustand,tanstack,
 
 function Home() {
   return (
-    <div className='relative bg-slate-700'>
+    <div className='overflow-hidden relative bg-gradient-to-r from-cyan-950 via-blue-800 to-cyan-950'>
         <Nav/>
         <div className='relative mt-20 mx-60 font-platypi text-gray-300'> 
           <p className='text-center text-4xl underline'>Fullstack Developer</p><br />
@@ -39,7 +39,7 @@ function Home() {
           <p className='texto'>En resumen, soy un desarrollador web full stack apasionado por los desafíos lógicos del backend y dedicado a crear aplicaciones web eficientes y escalables. Siempre estoy buscando nuevas oportunidades para crecer profesionalmente y contribuir con mis habilidades a proyectos innovadores.</p><br />
           <p className='texto'>Gracias por tu tiempo y espero poder colaborar en futuros proyectos.</p><br />
         </div>
-      
+      <Footer/>
     </div>
   )
 }

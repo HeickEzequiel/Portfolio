@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div className='absolute w-full  bottom-0 bg-blue-900'>
+    <div className='items-center text-white bg-transparent p-6 w-full'>
         <p>esto es un foooter</p>
     </div>
   )
