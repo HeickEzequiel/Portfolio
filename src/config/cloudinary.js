@@ -56,3 +56,16 @@ export const efset = image16.resize(fill().width(700).height(500))
 export const lider = image17.resize(fill().width(700).height(500))
 export const henry = image18.resize(fill().width(700).height(500))
 export const redes = image19.resize(fill().width(700).height(500))
+
+
+const git = cld.image("redes/github")
+const link = cld.image("redes/linkedin")
+const link2 = cld.image("redes/linkedin2")
+const git2 = cld.image("redes/github2")
+const mail = cld.image("redes/gmail")
+const wsp = cld.image("redes/whatsapp")
+
+export const github = git2.resize(fill().width(200).height(200))
+export const linkedin = link2.resize(fill().width(200).height(200))
+export const gmail = mail.resize(fill().width(100).height(100))
+export const whatsapp = wsp.resize(fill().width(75).height(75))
