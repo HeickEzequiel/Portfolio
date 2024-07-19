@@ -5,7 +5,7 @@ import Footer from "../footer/Footer"
 
 function Certifications() {
   return (
-    <div className='relative bg-gradient-to-r from-cyan-950 via-blue-800 to-cyan-950'>
+    <div className='relative overflow-hidden bg-gradient-to-r from-cyan-950 via-blue-800 to-cyan-950'>
         <Nav/>
         <div className="relative mt-24 ml-44 text-white">
             

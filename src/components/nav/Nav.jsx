@@ -7,7 +7,7 @@ function Nav() {
                 <button className='nav-button'><Link to='/'>Inicio</Link></button>
                 <button className='nav-button'><Link to='/certifications'>Certificaciones</Link></button>
                 <button className='nav-button'><Link to='/projects'>Proyectos</Link></button>
-                <button className='nav-button'><Link to='/contact'>Contacto</Link></button>
+                <button className='nav-button'><Link to='/exp'>Experiencia</Link></button>
                 <button className='ml-96 nav-button'><Link to='/contact'>Descarga mi CV</Link></button>
             </div>
         </div>
