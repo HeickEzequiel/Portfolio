@@ -10,10 +10,10 @@ function Footer() {
         <div>
           <ul className="relative mt-8 left-36">
             <li className="underline"><Link to='/'>Inicio</Link></li>
-            <li className="underline"><Link to='/certifications'>Certificaciones</Link></li>
-            <li className="underline"><Link to='/projects'>Proyectos</Link></li>
-            <li className="underline"><Link to='/contact'>Contacto</Link></li>
-            <li className="underline"><Link to='/contact'>Descarga mi CV</Link></li>
+            <li className="underline"><Link to='/certifications'>Estudios y certificaciones</Link></li>
+            {/* <li className="underline"><Link to='/projects'>Proyectos</Link></li> */}
+            <li className="underline"><Link to='/contact'>Experiencia Laboral</Link></li>
+            <li className="underline"><a href='https://drive.google.com/file/d/1tAeEwu9lHAbY_UqYTKZnTMoO-27jx_iQ/view?usp=drive_link' target="_blank" download="CV Ezequiel Heick.pdf">Descarga mi CV</a></li>
           </ul>
         </div>
         
