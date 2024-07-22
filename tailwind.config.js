@@ -7,6 +7,13 @@ export default {
     extend: {
       fontFamily:{
         platypi:['platypi','serif']
+      },
+      screens:{
+        'xs':'320px',
+      },
+      margin: {
+        '42': '168px',
+        '41': '164px',
       }
     },
   },
