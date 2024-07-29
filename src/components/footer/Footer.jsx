@@ -7,11 +7,11 @@ function Footer() {
     <div className='text-white bg-transparent'><hr />
         <div>
           <ul className="lg:h-28 lg:mt-8 lg:left-36 lg:text-lg   xs:h-36 xs:text-sm xs:ml-4">
-            <li className="underline xs:mt-1"><Link to='/'>Inicio</Link></li>
-            <li className="underline xs:mt-1"><Link to='/certifications'>Estudios y certificaciones</Link></li>
+            <li className="underline xs:mt-2"><Link to='/'>Inicio</Link></li>
+            <li className="underline xs:mt-2"><Link to='/certifications'>Estudios y certificaciones</Link></li>
+            <li className="underline xs:mt-2"><Link to='/exp'>Experiencia Laboral</Link></li>
+            <li className="underline xs:mt-2"><a href='https://drive.google.com/file/d/1tAeEwu9lHAbY_UqYTKZnTMoO-27jx_iQ/view?usp=drive_link' target="_blank" download="CV Ezequiel Heick.pdf">Descarga mi CV</a></li>
             {/* <li className="underline"><Link to='/projects'>Proyectos</Link></li> */}
-            <li className="underline xs:mt-1"><Link to='/exp'>Experiencia Laboral</Link></li>
-            <li className="underline xs:mt-1"><a href='https://drive.google.com/file/d/1tAeEwu9lHAbY_UqYTKZnTMoO-27jx_iQ/view?usp=drive_link' target="_blank" download="CV Ezequiel Heick.pdf">Descarga mi CV</a></li>
           </ul>
         </div>
         

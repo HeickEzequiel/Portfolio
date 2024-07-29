@@ -12,5 +12,5 @@
     @apply lg:border-4 p-2 rounded-2xl bg-black xs:size-12 lg:size-32 xs:border-2
 }
 .diploma{
-    @apply size-20 border-4 border-black rounded-xl hover:size-max hover:-translate-x-10 hover:scale-110 duration-300 
+    @apply lg:size-20 xs:size-20 xs:place-items-center lg:border-4 xs:border-4 lg:border-black xs:border-black lg:rounded-xl xs:rounded-xl lg:hover:size-max xs:hover:size-max lg:hover:-translate-x-10 xs:hover:-translate-x-80 lg:hover:scale-110  xs:hover:scale-50 lg:duration-300 xs:duration-300 
 }
