@@ -7,19 +7,19 @@ function Footer() {
     <div className='text-white bg-transparent'><hr />
         <div>
           <ul className="lg:h-28 lg:mt-8 lg:left-36 lg:text-lg   xs:h-36 xs:text-sm xs:ml-4">
-            <li className="underline xs:mt-2"><Link to='/'>Inicio</Link></li>
-            <li className="underline xs:mt-2"><Link to='/certifications'>Estudios y certificaciones</Link></li>
-            <li className="underline xs:mt-2"><Link to='/exp'>Experiencia Laboral</Link></li>
-            <li className="underline xs:mt-2"><a href='https://drive.google.com/file/d/1tAeEwu9lHAbY_UqYTKZnTMoO-27jx_iQ/view?usp=drive_link' target="_blank" download="CV Ezequiel Heick.pdf">Descarga mi CV</a></li>
+            <li className="underline xs:mt-2 xs:relative"><Link to='/'>Inicio</Link></li>
+            <li className="underline xs:mt-2 xs:relative"><Link to='/certifications'>Estudios y certificaciones</Link></li>
+            <li className="underline xs:mt-2 xs:relative"><Link to='/exp'>Experiencia Laboral</Link></li>
+            <li className="underline xs:mt-2 xs:relative"><a href='https://drive.google.com/file/d/1tAeEwu9lHAbY_UqYTKZnTMoO-27jx_iQ/view?usp=drive_link' target="_blank" download="CV Ezequiel Heick.pdf">Descarga mi CV</a></li>
             {/* <li className="underline"><Link to='/projects'>Proyectos</Link></li> */}
           </ul>
         </div>
         
-        <div className="lg:left-96 lg:ml-28 lg:bottom-2   xs:relative xs:bottom-16 xs:ml-4">
-          <AdvancedImage cldImg={gmail} className='lg:relative lg:size-14 lg:ml-28 lg:-top-4 xs:size-10 xs:ml-40 xs:-mt-20'/>
-          <p className="lg:relative lg:ml-44 lg:text-lg lg:-top-7 xs:-mt-7 xs:ml-48 xs:text-xs">ezequielheick@gmail.com</p>
-          <AdvancedImage cldImg={whatsapp} className='lg:relative lg:p-2 lg:size-14 lg:ml-28 lg:-top-8 xs:size-8 xs:ml-41 xs: xs:mt-2'/>
-          <p className="lg:relative lg:ml-44 lg:text-lg lg:-top-12 xs:-mt-6 xs:ml-48 xs:text-xs">+54 011 34637208</p>
+        <div className="lg:left-96 lg:ml-28 lg:bottom-2   xs:relative xs:bottom-16 xs:ml-4 xs:left-40 ">
+          <AdvancedImage cldImg={gmail} className='lg:relative lg:size-14 lg:ml-28 lg:-top-4 xs:size-10 xs:ml-0 xs:-mt-20'/>
+          <p className="lg:relative lg:ml-44 lg:text-lg lg:-top-7 xs:-mt-7 xs:ml-9 xs:text-xs ">ezequielheick@gmail.com</p>
+          <AdvancedImage cldImg={whatsapp} className='lg:relative lg:p-2 lg:size-14 lg:ml-28 lg:-top-8 xs:size-8 xs:ml-1 xs:mt-2 '/>
+          <p className="lg:relative lg:ml-44 lg:text-lg lg:-top-12 xs:-mt-6 xs:ml-9 xs:text-xs ">+54 011 34637208</p>
         </div>
      
           
