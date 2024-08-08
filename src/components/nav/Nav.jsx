@@ -8,7 +8,7 @@ function Nav() {
                 <button className='nav-button'><Link to='/certifications'>Estudios</Link></button>
                 <button className='nav-button'><Link to='/exp'>Experiencia</Link></button>
                 {/* <button className='nav-button'><Link to='/projects'>Proyectos</Link></button> */}
-                <button className='lg:ml-96 nav-button'><a href='https://drive.google.com/file/d/1tAeEwu9lHAbY_UqYTKZnTMoO-27jx_iQ/view?usp=drive_link' target="_blank" download="CV Ezequiel Heick.pdf">Descarga mi CV</a></button>
+                <button className='lg:ml-96 nav-button'><a href='https://drive.google.com/file/d/1DGpa33D-iI-_N-lX28_G0AKFzuOaKdiz/view?usp=sharing' target="_blank" download="CV Ezequiel Heick.pdf">Descarga mi CV</a></button>
             </div>
         </div>
       )
