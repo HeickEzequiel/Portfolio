@@ -10,7 +10,7 @@ function Footer() {
             <li className="underline xs:mt-2 xs:relative"><Link to='/'>Inicio</Link></li>
             <li className="underline xs:mt-2 xs:relative"><Link to='/certifications'>Estudios y certificaciones</Link></li>
             <li className="underline xs:mt-2 xs:relative"><Link to='/exp'>Experiencia Laboral</Link></li>
-            <li className="underline xs:mt-2 xs:relative"><a href='https://drive.google.com/file/d/1tAeEwu9lHAbY_UqYTKZnTMoO-27jx_iQ/view?usp=drive_link' target="_blank" download="CV Ezequiel Heick.pdf">Descarga mi CV</a></li>
+            <li className="underline xs:mt-2 xs:relative"><a href='https://docs.google.com/document/d/1Y2xDv2bYYKT7CjVTD-qQl9D75NhBtewW/edit?usp=sharing&ouid=116375284601497785226&rtpof=true&sd=true' target="_blank" download="CV Ezequiel Heick.pdf">Descarga mi CV</a></li>
             {/* <li className="underline"><Link to='/projects'>Proyectos</Link></li> */}
           </ul>
         </div>
