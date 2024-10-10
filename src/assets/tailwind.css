@@ -5,12 +5,10 @@
 .nav-button{
     @apply block mt-4 lg:inline-block lg:mt-0 text-gray-300 font-medium hover:text-lime-400 mr-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 
 }
-.texto{
-    @apply text-xl text-center
-}
+
 .icono{
-    @apply lg:border-4 p-2 rounded-2xl bg-black xs:size-12 lg:size-32 xs:border-2
+    @apply lg:border-4 p-2 rounded-2xl bg-black xs:size-12 lg:size-24 xs:border-2
 }
 .diploma{
-    @apply lg:size-20 xs:size-20 xs:place-items-center lg:border-4 xs:border-4 lg:border-black xs:border-black lg:rounded-xl xs:rounded-xl lg:hover:size-max xs:hover:size-max lg:hover:-translate-x-10 xs:hover:-translate-x-80 lg:hover:scale-110  xs:hover:scale-50 lg:duration-300 xs:duration-300 
+    @apply lg:size-20 xs:size-20 xs:place-items-center lg:border-4 xs:border-4 lg:border-black xs:border-black lg:rounded-xl xs:rounded-xl lg:hover:size-max xs:hover:size-max lg:hover:-translate-x-52 xs:hover:-translate-x-80 lg:hover:scale-110  xs:hover:scale-50 lg:duration-1000 xs:duration-300 
 }
