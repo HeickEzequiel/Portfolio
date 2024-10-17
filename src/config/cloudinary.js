@@ -65,7 +65,7 @@ const git2 = cld.image("redes/github2")
 const mail = cld.image("redes/gmail")
 const wsp = cld.image("redes/whatsapp")
 
-export const github = git2.resize(fill().width(100).height(100))
+export const github = git2.resize(fill().width(75).height(75))
 export const linkedin = link2.resize(fill().width(100).height(100))
 export const gmail = mail.resize(fill().width(150).height(150))
 export const whatsapp = wsp.resize(fill().width(75).height(75))
