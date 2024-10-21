@@ -10,5 +10,6 @@
     @apply lg:border-4 p-2 rounded-2xl bg-black xs:size-12 lg:size-24 xs:border-2
 }
 .diploma{
-    @apply lg:size-20 xs:size-20 xs:place-items-center lg:border-4 xs:border-4 lg:border-black xs:border-black lg:rounded-xl xs:rounded-xl lg:hover:size-2/4 xs:hover:size-max lg:hover:-translate-x-20 xs:hover:-translate-x-80 lg:hover:scale-110  xs:hover:scale-50 lg:duration-1000 xs:duration-300 
+    @apply lg:size-20 lg:border-4 lg:border-black lg:rounded-xl lg:hover:size-2/4 lg:hover:-translate-x-20 lg:hover:scale-110 lg:duration-1000 lg:hover:ml-0
+           xs:size-20 xs:border-4 xs:border-black xs:rounded-xl xs:hover:size-max xs:hover:-translate-x-56  xs:hover:scale-50  xs:duration-1000 xs:hover:ml-4
 }
