@@ -510,6 +510,9 @@ video {
 .w-auto {
   width: auto;
 }
+.grow {
+  flex-grow: 1;
+}
 @keyframes fade-down {
 
   0% {
@@ -975,10 +978,6 @@ video {
     gap: 0.5rem;
   }
 
-  .xs\:overflow-hidden {
-    overflow: hidden;
-  }
-
   .xs\:rounded-full {
     border-radius: 9999px;
   }
@@ -1113,12 +1112,20 @@ video {
     margin-left: 3rem;
   }
 
+  .lg\:ml-2 {
+    margin-left: 0.5rem;
+  }
+
   .lg\:ml-20 {
     margin-left: 5rem;
   }
 
   .lg\:ml-52 {
     margin-left: 13rem;
+  }
+
+  .lg\:ml-6 {
+    margin-left: 1.5rem;
   }
 
   .lg\:ml-64 {
@@ -1169,29 +1176,8 @@ video {
     margin-top: 1.5rem;
   }
 
-  .lg\:ml-4 {
-    margin-left: 1rem;
-  }
-
-  .lg\:ml-1 {
-    margin-left: 0.25rem;
-  }
-
-  .lg\:ml-2 {
-    margin-left: 0.5rem;
-  }
-
-  .lg\:ml-6 {
-    margin-left: 1.5rem;
-  }
-
   .lg\:flex {
     display: flex;
-  }
-
-  .lg\:size-0 {
-    width: 0px;
-    height: 0px;
   }
 
   .lg\:size-16 {
